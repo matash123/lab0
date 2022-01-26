@@ -31,7 +31,7 @@ Bootstrap component
 the button component was used and it links the official f1 website
 
 Bootstrap columns
-F1 teams page has columns of the team and the DriversStandings
+F1 teams page has columns of the team and the drivers
 
 Sass variables
 

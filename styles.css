@@ -1,3 +1,4 @@
+$colorof: #0000FF;
 body {
   background-color: lightblue;
 }
@@ -36,3 +37,14 @@ a:first-child {
 a:hover {
   text-decoration: none;
 }
+
+      h3{
+        color: blue;
+        padding: 10px;
+        ul{
+          width: 100%
+          li{
+            color: black;
+          }
+        }
+      }

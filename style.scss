@@ -1,5 +1,15 @@
-$blue: #0000ff;
+$colorof: #0000FF;
 
-h3{
-  color: $blue;
+#main-nav
+{
+      h3{
+        color: $colorof;
+        padding: 10px;
+        ul{
+          width: 100%
+          li{
+            color: gray;
+          }
+        }
+      }
 }
