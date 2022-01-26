@@ -17,3 +17,22 @@ table, th, td{
 th, td {
   padding: 10px;
 }
+.winner {
+  color: green;
+}
+#loser
+{
+  color: red;
+}
+a {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 1px;
+  margin-left: 5px;
+}
+a:first-child {
+  margin-lef: 0px;
+}
+a:hover {
+  text-decoration: none;
+}

@@ -1,49 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Formula 1 2021</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.css">
+<meta name"viewport" content="width=device-width, initial-scale=1.0">
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="file:///Users/Matin/Documents/GitHub/lab0/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="file:///Users/Matin/Documents/GitHub/lab0/DriversStandings.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Drivers Standings</a>
-    <a href="file:///Users/Matin/Documents/GitHub/lab0/ConstructorsStandings.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Constructors Standings</a>
-    <a href="file:///Users/Matin/Documents/GitHub/lab0/F1Teams.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">F1 Teams</a>
-  </div>
+<a href="file:///Users/Matin/Documents/GitHub/lab0/index.html" >Home</a>
+<a href="file:///Users/Matin/Documents/GitHub/lab0/DriversStandings.html" >Drivers Standings</a>
+<a href="file:///Users/Matin/Documents/GitHub/lab0/ConstructorsStandings.html" >Constructors Standings</a>
+<a href="file:///Users/Matin/Documents/GitHub/lab0/F1Teams.html" >F1 Teams</a>
+
+<h1>Home</h1>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:10px 10px">
+<header style="padding:20px">
   <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/217467655-2168404276649876-7543328067561030104-n-1626374275.jpeg" alt="Formula 1 image" style=width:100%;>
-  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+  <h1 style="margin-left:0px">Link to official website</h1>
+  <a href="https://www.formula1.com/" class="btn btn-primary btn-lg acive" role="button" aria-pressed="true">Link</a>
 </header>
 
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>What is Formula 1</h1>
-      <p class="w3-text-grey">Formula 1 is a auto racing event that occurs internationally between 10 teams of 2 drivers. Formula 1 has two different championships, the drivers championship and constructors championship. The drivers championship is an individual standing, that adds up the scores from each Grand Prix race. The constructors championship is the overall standing of the team. The drivers championship is important because the winner is recognized as the best driver of the season and he will gain all the fame and prestige that comes with winning the drivers championship, and winning the constructors championship means the team that won will recieve the highest budget for the upcoming season.</p>
-    </div>
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
-  </div>
+<div>
+  <h1>What is Formula 1</h1>
+  <p style="margin-left: 20px;">Formula 1 is a auto racing event that occurs internationally between 10 teams of 2 drivers. Formula 1 has two different championships, the drivers championship and constructors championship. The drivers championship is an individual standing, that adds up the scores from each Grand Prix race. The constructors championship is the overall standing of the team. The drivers championship is important because the winner is recognized as the best driver of the season and he will gain all the fame and prestige that comes with winning the drivers championship, and winning the constructors championship means the team that won will recieve the highest budget for the upcoming season.</p>
 </div>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
 
 </body>
 </html>
